@@ -1,4 +1,6 @@
-# Here are a list of HTML tags that you might find on a doctors surgery website 😉
+# Common HTML tags
+
+## Hints for if you get stuck!
 
     <!DOCTYPE html>
 
