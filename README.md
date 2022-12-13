@@ -1,14 +1,19 @@
 # Introduction to HTML
 
+## Getting Started
+
+👉 _Fork_ and then _clone_ this repo to your local computer
+
 ## Instructions
 
-The Tech Returners Doctors Surgery has a website in desperate need of some semantic HTML tags. Currently, it has some correct tags, but in other places there are `<div>`s and even empty `<></>` tags!
+The Tech Returners Doctors Surgery has a website in desperate need of some semantic HTML tags. Currently, it has some correct tags, but in other places there are unhelpful `<div>`s and even empty `<></>` tags! 😯
 
-Your task is to replace the divs and empty tags with more appropriate ones.
+Your task is to replace the divs and empty tags with more appropriate, semantic ones.
 
 For example, instead of:
 
 ```HTML
+
 <div>Tech Returners Surgery: Home</div>
 ```
 
@@ -23,7 +28,7 @@ Perhaps using an `<h1>` here would be more appropriate?
 
 ## Tips and Tricks
 
-To open an HTML file in the command line, type the following:
+To open an HTML file using the command line, type the following:
 
 ```
          $ open filename.html
