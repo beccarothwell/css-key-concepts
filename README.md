@@ -34,9 +34,9 @@ To open an HTML file using the command line, type the following:
          $ open filename.html
 ```
 
-Or alternatively, right click the html file with your mouse and select "open".
+Or alternatively, right click the HTML file with your mouse and select "open".
 
-You can find a list of different tags and explanations on when and where to use them on [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+💡 You can find a list of different tags and explanations on when and where to use them on [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 
 💡 If you get really really stuck, you can find some hints [here](./hints.md).
 
