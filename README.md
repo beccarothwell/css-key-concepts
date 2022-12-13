@@ -24,7 +24,7 @@ Perhaps using an `<h1>` here would be more appropriate?
 <h1>Tech Returners Surgery: Home</h1>
 ```
 
-👉 The html page for you to edit can be found [here](./index.html).
+👉 The file for you to edit can be found [here](./index.html).
 
 ## Tips and Tricks
 
