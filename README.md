@@ -24,7 +24,7 @@ Perhaps using an `<h1>` here would be appropriate?
 <h1>Tech Returners Surgery: Home</h1>
 ```
 
-💡 In some cases, there will only be one answer. For example, remember that a HTML document has a single `html` tag wrapping the whole document after the DOCTYPE.
+💡 In some cases, there will only be one answer. For example, remember that an HTML document has a single `html` tag wrapping the whole document after the DOCTYPE.
 
 💡 But in other cases, there might be multiple valid tags - in which case, choose whichever seems most appropriate.
 
@@ -34,15 +34,13 @@ Perhaps using an `<h1>` here would be appropriate?
 
 ## Tips and Tricks
 
-On Mac/Linux you can open HTML files using the command line, by typing the following:
+On Mac/Linux you can open HTML files in the browser using the command line:
 
 ```
          $ open filename.html
 ```
 
-Or alternatively, right click the HTML file and select "open".
-
-Or, use an IDE of your choice, such as VS Code.
+Or alternatively for Mac and Windows, right click the HTML file and select "open with", then select the browser of your choice.
 
 💡 You can find a list of different tags and explanations on when and where to use them on [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 
