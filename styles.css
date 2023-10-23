@@ -66,3 +66,13 @@ h6 {
   --primary-font: "Outfit", sans-serif;
   --secondary-font: "Sora", sans-serif;
 }
+
+body {
+  font-family: var(--primary-font);
+  font-size: 1em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
