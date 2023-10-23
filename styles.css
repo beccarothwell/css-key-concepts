@@ -41,3 +41,28 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/*-------------------------------------*/
+
+:root {
+  --purple: #6c2886;
+  --dark-purple: #694783;
+  --purple-navy: #544e87;
+  --yellow: #f7f7a3;
+  --green: #45808a;
+  --grey: #f2f2e9;
+  --black: #2e373d;
+  --white: #fff;
+  --gradient-dark: linear-gradient(
+    90deg,
+    rgba(100, 44, 129, 1) 0%,
+    rgba(69, 128, 138, 1) 100%
+  );
+  --gradient-light: linear-gradient(
+    90deg,
+    rgba(243, 243, 169, 1) 0%,
+    rgba(242, 242, 233, 1) 100%
+  );
+  --primary-font: "Outfit", sans-serif;
+  --secondary-font: "Sora", sans-serif;
+}
