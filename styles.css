@@ -95,7 +95,7 @@ h6 {
 
 body {
   font-family: var(--primary-font);
-  font-size: 1em;
+  font-size: 1.125rem;
   color: var(--black);
 }
 
@@ -446,4 +446,67 @@ header {
 
 .main-nav__contact svg {
   fill: var(--dark-purple);
+}
+
+.covid-update {
+  background-color: var(--yellow);
+  background-image: linear-gradient(
+      180deg,
+      rgba(247, 247, 163, 1) 25%,
+      rgba(247, 247, 163, 0.7)
+    ),
+    url(./coronavirus.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .covid-update {
+    background-image: linear-gradient(
+        90deg,
+        var(--yellow) 60%,
+        rgba(247, 247, 163, 0.7),
+        transparent
+      ),
+      url(./coronavirus.jpg);
+  }
+}
+
+@media (min-width: 992px) {
+  .covid-update {
+    background-image: linear-gradient(90deg, var(--yellow) 50%, transparent),
+      url(./coronavirus.jpg);
+  }
+}
+
+.covid-update__container {
+  display: flex;
+}
+
+.covid-update__content {
+  display: flex;
+  flex-direction: column;
+  padding: 3.75rem 0;
+}
+
+@media (min-width: 768px) {
+  .covid-update__content {
+    flex-basis: 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  .covid-update__content {
+    flex-basis: 50%;
+  }
+}
+
+.covid-update__title {
+  font-weight: 600;
+  font-family: var(--secondary-font);
+  margin-bottom: 1.125rem;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  letter-spacing: -1px;
 }
