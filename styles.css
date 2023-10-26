@@ -388,6 +388,7 @@ header {
 
 .main-nav__search-form {
   display: flex;
+  max-width: 100%;
 }
 
 .main-nav__search-input {
