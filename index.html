@@ -124,9 +124,11 @@
     </section>
 
     <section id="welcome" class="welcome">
-      <div class="container section__container welcome__container">
-        <div class="welcome__content">
-          <h2 class="section__title welcome__title">
+      <div
+        class="container section__container media-and-text welcome__container"
+      >
+        <div class="media-and-text__content welcome__content">
+          <h2 class="section__title media-and-text__title welcome__title">
             Welcome to the Tech Returners Surgery!
           </h2>
           <p>
@@ -142,7 +144,7 @@
             to promoting a healthy lifestyle and minimising ill health.
           </p>
         </div>
-        <div class="welcome__media">
+        <div class="media-and-text__media welcome__media rounded-corners">
           <address class="welcome__media-overlay">
             The Tech Returners Surgery,<br />
             115 Mancunian Way,<br />
@@ -153,23 +155,47 @@
       </div>
     </section>
 
-    <section>
-      <div class="container section__container">
-        <h2 class="section__title">How to use Ask My Doc?</h2>
+    <section id="ask-my-doc" class="ask-my-doc">
+      <div
+        class="container section__container ask-my-doc__container media-and-text media-and-text--media-right"
+      >
+        <div class="ask-my-doc__content media-and-text__content">
+          <h2 class="section__title ask-my-doc__title media-and-text__title">
+            How to use Ask My Doc?
+          </h2>
+          <p>
+            Ask my Doc is a fast and easy way to ask for any kind of help from
+            the practice, using the internet or a smart phone.
+          </p>
+          <p>
+            It allows you to request email advice, telephone or face to face
+            help, on any medical matter from a GP or Nurse Practitioner.
+          </p>
+          <p>
+            Watch this video to find out more information about how to use Ask
+            my Doc at the Tech Returners Surgery.
+          </p>
+        </div>
+        <div class="ask-my-doc__media media-and-text__media">
+          <video
+            class="rounded-corners"
+            controls
+            poster="./ask-my-doc.jpg"
+            width="250"
+          >
+            <source src="#" type="video/webm" />
+            <source src="#" type="video/mp4" />
 
-        <video controls poster="./ask-my-doc.jpg" width="250">
-          <source src="#" type="video/webm" />
-          <source src="#" type="video/mp4" />
+            <track
+              kind="captions"
+              srclang="en"
+              src="./ask_my_doc_transcript.vtt"
+              default
+            />
 
-          <track
-            kind="captions"
-            srclang="en"
-            src="./ask_my_doc_transcript.vtt"
-            default
-          />
-
-          Sorry, your browser doesn't support embedded videos.
-        </video>
+            Sorry, your browser doesn't support embedded videos.
+          </video>
+        </div>
       </div>
     </section>
 
