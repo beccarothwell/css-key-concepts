@@ -94,7 +94,7 @@
       </div>
     </header>
 
-    <section id="covid-update" class="covid-update">
+    <section id="covid-update" class="section covid-update">
       <div class="container section__container covid-update__container">
         <div class="covid-update__content">
           <h2 class="section__title covid-update__title">
@@ -123,12 +123,14 @@
       </div>
     </section>
 
-    <section id="welcome" class="welcome">
+    <section id="welcome" class="section welcome">
       <div
         class="container section__container media-and-text welcome__container"
       >
         <div class="media-and-text__content welcome__content">
-          <h2 class="section__title media-and-text__title welcome__title">
+          <h2
+            class="section__title section__title--underlined media-and-text__title welcome__title"
+          >
             Welcome to the Tech Returners Surgery!
           </h2>
           <p>
@@ -160,7 +162,9 @@
         class="container section__container ask-my-doc__container media-and-text media-and-text--media-right"
       >
         <div class="ask-my-doc__content media-and-text__content">
-          <h2 class="section__title ask-my-doc__title media-and-text__title">
+          <h2
+            class="section__title section__title--underlined media-and-text__title ask-my-doc__title"
+          >
             How to use Ask My Doc?
           </h2>
           <p>
@@ -199,60 +203,96 @@
       </div>
     </section>
 
-    <section>
-      <div class="container section__container">
-        <h2 class="section__title">
+    <section id="contact-us" class="section contact-us">
+      <div class="container section__container contact-us__container">
+        <h2
+          class="section__title section__title--centered section__title--underlined contact-us__title"
+        >
           Need advice or have some feedback for us?
         </h2>
+        <div class="contact-us__form-wrapper">
+          <svg
+            class="background-arrow background-arrow--left"
+            viewBox="0 0 200 471.2"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="200px"
+            height="471.161px"
+          >
+            <path
+              id="Path_347"
+              data-name="Path 347"
+              d="M 49.05 0 L 0 0 L 0 471.2 L 49.05 471.161 C 61.719 471.161 73.424 464.4 79.756 453.427 L 195.249 253.315 C 201.583 242.34 201.583 228.821 195.249 217.846 L 79.756 17.735 C 73.425 6.761 61.719 0 49.05 0 Z"
+              fill="inherit"
+            ></path>
+          </svg>
+          <form id="contact-us-form" class="contact-us__form">
+            <fieldset>
+              <legend>
+                Send us a message by filling out the form below and one of our
+                Receptionists will be in touch:
+              </legend>
+              <div class="contact-us__behalf-of">
+                <p>Are you completing this form on behalf of:</p>
+                <div class="contact-us__checkbox-group">
+                  <label for="self">Yourself </label>
+                  <input type="checkbox" id="self" name="self" />
+                </div>
+                <div class="contact-us__checkbox-group">
+                  <label for="another">Someone else </label>
+                  <input type="checkbox" id="another" name="another" />
+                </div>
+              </div>
+              <div class="contact-us__input-group contact-us__name">
+                <label for="name">Name </label>
+                <input type="text" id="name" name="name" required />
+              </div>
 
-        <form>
-          <fieldset>
-            <legend>
-              Send us a message by filling out the form below and one of our
-              Receptionists will be in touch:
-            </legend>
+              <div class="contact-us__input-group contact-us__dob">
+                <label for="dob">Date of Birth </label>
+                <input type="date" id="dob" name="dob" required />
+              </div>
 
-            <p>Are you completing this form on behalf of:</p>
+              <div class="contact-us__input-group contact-us__telephone">
+                <label for="telephone">Telephone Number: </label>
+                <input type="tel" id="telephone" name="telephone" required />
+              </div>
 
-            <label for="self">Yourself </label>
-            <input type="checkbox" id="self" name="self" />
+              <div class="contact-us__input-group contact-us__email">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required />
+              </div>
 
-            <label for="another">Someone else </label>
-            <input type="checkbox" id="another" name="another" />
+              <div class="contact-us__input-group contact-us__message">
+                <label for="message">Your query or message: </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
 
-            <div>
-              <label for="fname">First Name </label>
-              <input type="text" id="fname" name="fname" required />
-            </div>
-
-            <div>
-              <label for="lname">Last Name </label>
-              <input type="text" id="lname" name="lname" required />
-            </div>
-
-            <div>
-              <label for="dob">Date of Birth </label>
-              <input type="date" id="dob" name="dob" required />
-            </div>
-
-            <div>
-              <label for="telephone">Telephone Number: </label>
-              <input type="tel" id="telephone" name="telephone" required />
-            </div>
-
-            <div>
-              <label for="email">Email: </label>
-              <input type="email" id="email" name="email" required />
-            </div>
-
-            <div>
-              <label for="message">Your query or message: </label>
-              <input type="text" id="message" name="message" required />
-            </div>
-
-            <input type="submit" value="Submit" />
-          </fieldset>
-        </form>
+              <input class="contact-us__submit" type="submit" value="Submit" />
+            </fieldset>
+          </form>
+          <svg
+            class="background-arrow background-arrow--right"
+            preserveAspectRatio="none"
+            viewBox="0 0 200 471.2"
+            xmlns="http://www.w3.org/2000/svg"
+            width="200px"
+            height="471.161px"
+          >
+            <path
+              id="Path_347"
+              data-name="Path 347"
+              d="M 306.9 5 L 355.949 5 L 355.949 476.162 L 306.9 476.162 C 294.231 476.162 282.526 469.401 276.194 458.428 L 160.7 258.316 C 154.366 247.341 154.366 233.821 160.7 222.846 L 276.192 22.736 C 282.523 11.762 294.23 5 306.9 5 Z"
+              fill="inherit"
+              transform="translate(-155.949 -5)"
+            ></path>
+          </svg>
+        </div>
       </div>
     </section>
   </body>
